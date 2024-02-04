@@ -231,62 +231,6 @@ wget -c https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/r
 # ln -s -f /home/featurize/data/models/controlnet/control_v11u_sd15_tile_fp16.safetensors  /home/featurize/work/app/stable-diffusion-webui/models/ControlNet/control_v11u_sd15_tile_fp16.safetensors
 ln -s -f /home/featurize/data/models/controlnet/control_v11u_sd15_tile_fp16.safetensors  /home/featurize/work/app/ComfyUI/models/controlnet/control_v11u_sd15_tile_fp16.safetensors
 
-# SD webui
-wget -c https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11e_sd15_ip2p.pth -O /home/featurize/data/models/controlnet/control_v11e_sd15_ip2p.pth
-ln -s -f /home/featurize/data/models/controlnet/control_v11e_sd15_ip2p.pth  /home/featurize/work/app/stable-diffusion-webui/models/ControlNet/control_v11e_sd15_ip2p.pth
-# ln -s -f /home/featurize/data/models/controlnet/control_v11e_sd15_ip2p.pth  /home/featurize/work/app/ComfyUI/models/controlnet/control_v11e_sd15_ip2p.pth
-
-wget -c https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11e_sd15_shuffle.pth -O /home/featurize/data/models/controlnet/control_v11e_sd15_shuffle.pth
-ln -s -f /home/featurize/data/models/controlnet/control_v11e_sd15_shuffle.pth  /home/featurize/work/app/stable-diffusion-webui/models/ControlNet/control_v11e_sd15_shuffle.pth
-# ln -s -f /home/featurize/data/models/controlnet/control_v11e_sd15_shuffle.pth  /home/featurize/work/app/ComfyUI/models/controlnet/control_v11e_sd15_shuffle.pth
-
-wget -c https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11f1e_sd15_tile.pth -O /home/featurize/data/models/controlnet/control_v11f1e_sd15_tile.pth
-ln -s -f /home/featurize/data/models/controlnet/control_v11f1e_sd15_tile.pth  /home/featurize/work/app/stable-diffusion-webui/models/ControlNet/control_v11f1e_sd15_tile.pth
-# ln -s -f /home/featurize/data/models/controlnet/control_v11f1e_sd15_tile.pth  /home/featurize/work/app/ComfyUI/models/controlnet/control_v11f1e_sd15_tile.pth
-
-wget -c https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11f1p_sd15_depth.pth -O /home/featurize/data/models/controlnet/control_v11f1p_sd15_depth.pth
-ln -s -f /home/featurize/data/models/controlnet/control_v11f1p_sd15_depth.pth  /home/featurize/work/app/stable-diffusion-webui/models/ControlNet/control_v11f1p_sd15_depth.pth
-# ln -s -f /home/featurize/data/models/controlnet/control_v11f1p_sd15_depth.pth  /home/featurize/work/app/ComfyUI/models/controlnet/control_v11f1p_sd15_depth.pth
-
-wget -c https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15_canny.pth -O /home/featurize/data/models/controlnet/control_v11p_sd15_canny.pth
-ln -s -f /home/featurize/data/models/controlnet/control_v11p_sd15_canny.pth  /home/featurize/work/app/stable-diffusion-webui/models/ControlNet/control_v11p_sd15_canny.pth
-# ln -s -f /home/featurize/data/models/controlnet/control_v11p_sd15_canny.pth  /home/featurize/work/app/ComfyUI/models/controlnet/control_v11p_sd15_canny.pth
-
-wget -c https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15_inpaint.pth -O /home/featurize/data/models/controlnet/control_v11p_sd15_inpaint.pth
-ln -s -f /home/featurize/data/models/controlnet/control_v11p_sd15_inpaint.pth  /home/featurize/work/app/stable-diffusion-webui/models/ControlNet/control_v11p_sd15_inpaint.pth
-# ln -s -f /home/featurize/data/models/controlnet/control_v11p_sd15_inpaint.pth  /home/featurize/work/app/ComfyUI/models/controlnet/control_v11p_sd15_inpaint.pth
-
-wget -c https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15_lineart.pth -O /home/featurize/data/models/controlnet/control_v11p_sd15_lineart.pth
-ln -s -f /home/featurize/data/models/controlnet/control_v11p_sd15_lineart.pth  /home/featurize/work/app/stable-diffusion-webui/models/ControlNet/control_v11p_sd15_lineart.pth
-# ln -s -f /home/featurize/data/models/controlnet/control_v11p_sd15_lineart.pth  /home/featurize/work/app/ComfyUI/models/controlnet/control_v11p_sd15_lineart.pth
-
-wget -c https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15_mlsd.pth -O /home/featurize/data/models/controlnet/control_v11p_sd15_mlsd.pth
-ln -s -f /home/featurize/data/models/controlnet/control_v11p_sd15_mlsd.pth  /home/featurize/work/app/stable-diffusion-webui/models/ControlNet/control_v11p_sd15_mlsd.pth
-# ln -s -f /home/featurize/data/models/controlnet/control_v11p_sd15_mlsd.pth  /home/featurize/work/app/ComfyUI/models/controlnet/control_v11p_sd15_mlsd.pth
-
-wget -c https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15_normalbae.pth -O /home/featurize/data/models/controlnet/control_v11p_sd15_normalbae.pth
-ln -s -f /home/featurize/data/models/controlnet/control_v11p_sd15_normalbae.pth  /home/featurize/work/app/stable-diffusion-webui/models/ControlNet/control_v11p_sd15_normalbae.pth
-# ln -s -f /home/featurize/data/models/controlnet/control_v11p_sd15_normalbae.pth  /home/featurize/work/app/ComfyUI/models/controlnet/control_v11p_sd15_normalbae.pth
-
-wget -c https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15_openpose.pth -O /home/featurize/data/models/controlnet/control_v11p_sd15_openpose.pth
-ln -s -f /home/featurize/data/models/controlnet/control_v11p_sd15_openpose.pth  /home/featurize/work/app/stable-diffusion-webui/models/ControlNet/control_v11p_sd15_openpose.pth
-# ln -s -f /home/featurize/data/models/controlnet/control_v11p_sd15_openpose.pth  /home/featurize/work/app/ComfyUI/models/controlnet/control_v11p_sd15_openpose.pth
-
-wget -c https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15_scribble.pth -O /home/featurize/data/models/controlnet/control_v11p_sd15_scribble.pth
-ln -s -f /home/featurize/data/models/controlnet/control_v11p_sd15_scribble.pth  /home/featurize/work/app/stable-diffusion-webui/models/ControlNet/control_v11p_sd15_scribble.pth
-# ln -s -f /home/featurize/data/models/controlnet/control_v11p_sd15_scribble.pth  /home/featurize/work/app/ComfyUI/models/controlnet/control_v11p_sd15_scribble.pth
-
-wget -c https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15_seg.pth -O /home/featurize/data/models/controlnet/control_v11p_sd15_seg.pth
-ln -s -f /home/featurize/data/models/controlnet/control_v11p_sd15_seg.pth  /home/featurize/work/app/stable-diffusion-webui/models/ControlNet/control_v11p_sd15_seg.pth
-# ln -s -f /home/featurize/data/models/controlnet/control_v11p_sd15_seg.pth  /home/featurize/work/app/ComfyUI/models/controlnet/control_v11p_sd15_seg.pth
-
-wget -c https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15_softedge.pth -O /home/featurize/data/models/controlnet/control_v11p_sd15_softedge.pth
-ln -s -f /home/featurize/data/models/controlnet/control_v11p_sd15_softedge.pth  /home/featurize/work/app/stable-diffusion-webui/models/ControlNet/control_v11p_sd15_softedge.pth
-# ln -s -f /home/featurize/data/models/controlnet/control_v11p_sd15_softedge.pth  /home/featurize/work/app/ComfyUI/models/controlnet/control_v11p_sd15_softedge.pth
-
-wget -c https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15s2_lineart_anime.pth -O /home/featurize/data/models/controlnet/control_v11p_sd15s2_lineart_anime.pth
-ln -s -f /home/featurize/data/models/controlnet/control_v11p_sd15s2_lineart_anime.pth  /home/featurize/work/app/stable-diffusion-webui/models/ControlNet/control_v11p_sd15s2_lineart_anime.pth
-# ln -s -f /home/featurize/data/models/controlnet/control_v11p_sd15s2_lineart_anime.pth  /home/featurize/work/app/ComfyUI/models/controlnet/control_v11p_sd15s2_lineart_anime.pth
 
 # ControlNet SDXL
 [ ! -d /home/featurize/data/models/controlnet/ ] && mkdir -p /home/featurize/data/models/controlnet/
